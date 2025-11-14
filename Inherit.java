@@ -16,7 +16,7 @@ class Child extends Parent {
 
 class GrandChild extends Child {
 
-  void childProperty() {
+  void GrandChildproperty() {
     System.out.println("GrandChild Property");
   }
 
@@ -26,7 +26,7 @@ public class Inherit {
 
   public static void main(String[] args) {
     GrandChild GC = new GrandChild();
-    GC.Childproperty();
+    GC.GrandChildproperty();
   }
   
 }
