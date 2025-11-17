@@ -4,7 +4,7 @@ public class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Koi number enter karo: ");
+        System.out.print("Enter the number: ");
         int number = scanner.nextInt();
         int original = number;
         int sum = 0;
@@ -27,9 +27,9 @@ public class ArmstrongNumber {
         
         // Check karna
         if (original == sum) {
-            System.out.println(original + " - Armstrong number hai! ✅");
+            System.out.println(original + " yes its Armstrong no.");
         } else {
-            System.out.println(original + " - Armstrong number nahi hai! ❌");
+            System.out.println(original + " No its not Armstrong no.");
         }
         
         scanner.close();
