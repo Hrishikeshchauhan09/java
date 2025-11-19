@@ -9,7 +9,7 @@ public class ArmstrongNumber {
         int original = number;
         int sum = 0;
         
-        // Pehle digits count karte hain
+         
         int temp = number;
         int digits = 0;
         while (temp > 0) {
@@ -17,15 +17,15 @@ public class ArmstrongNumber {
             temp = temp / 10;
         }
         
-        // Ab Armstrong logic
+        // logic
         temp = number;
         while (temp > 0) {
             int lastDigit = temp % 10;
-            sum += Math.pow(lastDigit, digits);  // digit^digits
+            sum += Math.pow(lastDigit, digits);  
             temp = temp / 10;
         }
         
-        // Check karna
+        // Check 
         if (original == sum) {
             System.out.println(original + " yes its Armstrong no.");
         } else {
