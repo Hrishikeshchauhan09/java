@@ -29,10 +29,22 @@ import java.util.Scanner;
        System.out.print("Enter your GPA: ");
        double gpa = sc.nextDouble(); 
         
-
-       sc.close();
+       //even or odd
+       System.out.println("Enter the number:");
+       int number = sc.nextInt();
+       if (number % 2 == 0){  
+         System.out.println("Even");
+        } else {
+          System.out.println("Odd");
+        }
+        sc.close();
       }
+    }
+         
+       
+        
+       
 
-  }
+
   
 
