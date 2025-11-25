@@ -28,5 +28,13 @@ public class Abstract {
 
   public static void main(String[] args) {
     
+    Thor t = new Thor();
+    t.introduce("Thor");
+    t.attack();
+
+    Iron i = new Iron();
+    i.introduce("Iron");
+    i.attack();
+    
   }
 }
