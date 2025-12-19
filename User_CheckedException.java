@@ -14,7 +14,7 @@ class User_CheckedException {
             throw new GaribException("Low balance in account");
         }
 balance -= amount;
-System.out.println("Withdrawal Successful. ");
+System.out.println("Withdrawal Successful.                    ");
     }
     
 }
