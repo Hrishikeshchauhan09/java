@@ -15,7 +15,7 @@ class ThreadClass{
         t1.start();  // start thread - JVM calls run()
 
         // t1.run();   // It will simply run the run() method 
-        for(int i = 1; i <= 5; j++){
+        for(int i = 1; i <= 5; i++){
             System.out.println("Main thread: "+ i);
         }
     }
