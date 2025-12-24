@@ -1,0 +1,43 @@
+package List;
+
+import java.util.*;
+
+public class AvengerListExample {
+    
+    public static void main(String[] args) {
+        // Create a list of Avengers
+        List<String> avengers = new ArrayList<>();
+
+        //1. add(element) - Adding elements
+        avengers.add("Iron Man");
+        avengers.add("Captain America");
+        avengers.add("Thor");
+        avengers.add("Hulk");
+        avengers.add("Black Widow");
+        System.out.println("Avengers: " + avengers);
+
+        //2. get(index) - Getting element at index 2
+        System.out.println("Element at index 2: " + avengers.get(2));  // Thor
+
+        //3. set(index, element) - Replacing element at index 3
+        avengers.set(3, "Hawkeye");
+        System.out.println("After set: " + avengers);
+
+        //4. remove(index) - Removing element at index 1
+        avengers.remove(1);
+        System.out.println("After remove: " + avengers);
+
+        //5. size() - Getting number of elements
+        System.out.println("Number of Avengers: " + avengers.size());
+
+        //6. contains(element) - Checking if "Iron Man" exists
+        System.out.println("Contains Iron Man? " + avengers.contains("Iron Man"));
+
+        //7. clear() - Clearing the entire list
+        // avengers.clar();
+        System.out.println("After clear: " + avengers);
+        
+        
+
+    }
+}
